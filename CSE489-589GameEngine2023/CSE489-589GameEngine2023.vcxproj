@@ -186,6 +186,7 @@
     <ClInclude Include="Scene2.h" />
     <ClInclude Include="Scene3.h" />
     <ClInclude Include="SceneGraphNode.h" />
+    <ClInclude Include="Scene_Project2.h" />
     <ClInclude Include="SharedLighting.h" />
     <ClInclude Include="SharedMaterials.h" />
     <ClInclude Include="SharedTransformations.h" />
