@@ -1,0 +1,48 @@
+newmtl Body_1
+map_Kd Body 1.png
+
+newmtl Body_2
+map_Kd Body 2.png
+
+newmtl Body_3
+map_Kd Body 3.png
+
+newmtl Body_4
+map_Kd Body 4.png
+
+newmtl Body_5
+map_Kd Body 5.png
+
+newmtl Body_6
+map_Kd Body 6.png
+
+newmtl Glass
+d 0.25
+map_Kd Glass.png
+
+newmtl intpanel
+map_Kd intpanel.png
+
+newmtl Panel
+map_Kd panel.png
+
+newmtl Panel_1
+map_Kd panel1.png
+
+newmtl Panel_2
+map_Kd panel2.png
+
+newmtl Parts_1
+map_Kd Parts 1.png
+
+newmtl Weapons
+map_Kd Weapons.png
+
+newmtl Pilot
+map_Kd pilot.png
+
+
+
+
+
+
