@@ -2,7 +2,7 @@
 static const bool  VERBOSE = false;
 
 #include "SoundEngine.h"
-//#include "PhysicsEngine.h"
+#include "PhysicsEngine.h"
 
 
 //********************* Initialization Methods *****************************************
@@ -50,12 +50,10 @@ bool Game::initializeGame()
 	bool graphicsInit = initializeGraphics();
 
 	// Initialize the sound engine
-	// TODO
 	bool soundInit = SoundEngine::Init();
 
 	// Initialize the physics engine
-	// TODO
-	bool physicsInit = true;
+	bool physicsInit = PhysicsEngine::Init();
 
 	// Check if all libraries initialized correctly
 	if (windowInit && graphicsInit && soundInit && physicsInit)
@@ -277,7 +275,7 @@ void Game::updateGame()
 	if (deltaTime >= FRAME_INTERVAL) {
 
 		// Update the physics engine
-		// TODO
+		PhysicsEngine::Update(deltaTime);
 
 		// Start an update traversal of all SceneGrapNode/GameObjects in the game
 		GameObject::update(deltaTime);
@@ -334,7 +332,7 @@ void Game::shutdown()
 	SoundEngine::Stop();
 
 	// Free up physics engine resources
-	// TODO
+	PhysicsEngine::Stop();
 
 
 } // end shutDown

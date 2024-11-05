@@ -41,11 +41,11 @@
 //#include "WaypointComponent.h"
 //#include "SteeringComponent.h"
 //#include "RemoveComponent.h"
-//#include "CollisionComponent.h"
+#include "CollisionComponent.h"
 //#include "SpinComponent.h"
 
 // Physics
-//#include "RigidBodyComponent.h"
+#include "RigidBodyComponent.h"
 
 // Sound
 //#include "SoundEngine.h"

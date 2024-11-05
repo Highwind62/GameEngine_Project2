@@ -146,7 +146,9 @@
     <ClCompile Include="ModelMeshComponent.cpp" />
     <ClCompile Include="MoveComponent.cpp" />
     <ClCompile Include="MoveForwardComponent.cpp" />
+    <ClCompile Include="PhysicsEngine.cpp" />
     <ClCompile Include="PositionalLightComponent.cpp" />
+    <ClCompile Include="RigidBodyComponent.cpp" />
     <ClCompile Include="SceneGraphNode.cpp" />
     <ClCompile Include="SharedLighting.cpp" />
     <ClCompile Include="SharedMaterials.cpp" />
@@ -168,6 +170,7 @@
     <ClInclude Include="BoxMeshComponent.h" />
     <ClInclude Include="BuildShaderProgram.h" />
     <ClInclude Include="CameraComponent.h" />
+    <ClInclude Include="CollisionComponent.h" />
     <ClInclude Include="Component.h" />
     <ClInclude Include="CylinderMeshComponent.h" />
     <ClInclude Include="DirectionalLIghtComponent.h" />
@@ -182,6 +185,8 @@
     <ClInclude Include="MoveComponent.h" />
     <ClInclude Include="MoveForwardComponent.h" />
     <ClInclude Include="PositionalLightComponent.h" />
+    <ClInclude Include="RigidBodyComponent.h" />
+    <ClInclude Include="Scene0.h" />
     <ClInclude Include="Scene1.h" />
     <ClInclude Include="Scene2.h" />
     <ClInclude Include="Scene3.h" />
