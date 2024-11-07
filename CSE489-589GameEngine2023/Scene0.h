@@ -51,7 +51,7 @@ class Scene0 : public Game
 			std::shared_ptr<ModelMeshComponent> dino = std::make_shared<ModelMeshComponent>("Assets/Dinosaur/Trex.obj", shaderProgram);
 			dinoObject->addComponent(dino);
 			dinoObject->setPosition(vec3(rand() % 10 - 5.0f, 100.0f + rand() % 50 - 25.0f, rand() % 10 - 5.0f -85.0f), WORLD);
-			//dinoObject->addComponent(std::make_shared< RemoveComponent>(15.0f));
+			dinoObject->addComponent(std::make_shared< RemoveComponent>(15.0f));
 			dinoObject->addComponent(std::make_shared< RigidBodyComponent>(dino, DYNAMIC));
 			//dinoObject->addComponent(std::make_shared< CollisionComponent());
 		}
@@ -129,7 +129,7 @@ class Scene0 : public Game
 		cam->setViewPort(0.0f, 0.0f, 1.0f, 1.0f);
 		cameraObject->addComponent(cam);
 
-		// cameraObject->addComponent(std::make_shared< ModelMakerComponent>(shaderProgram, "Assets/Dinosaur/Trex.obj"));
+		cameraObject->addComponent(std::make_shared< ModelMakerComponent>(shaderProgram, "Assets/Dinosaur/Trex.obj"));
 
 	}
 };

@@ -143,11 +143,13 @@
     <ClCompile Include="main.cpp" />
     <ClCompile Include="MathLibsConstsFuncs.cpp" />
     <ClCompile Include="MeshComponent.cpp" />
+    <ClCompile Include="ModelMakerComponent.cpp" />
     <ClCompile Include="ModelMeshComponent.cpp" />
     <ClCompile Include="MoveComponent.cpp" />
     <ClCompile Include="MoveForwardComponent.cpp" />
     <ClCompile Include="PhysicsEngine.cpp" />
     <ClCompile Include="PositionalLightComponent.cpp" />
+    <ClCompile Include="RemoveComponent.cpp" />
     <ClCompile Include="RigidBodyComponent.cpp" />
     <ClCompile Include="SceneGraphNode.cpp" />
     <ClCompile Include="SharedLighting.cpp" />
@@ -185,6 +187,7 @@
     <ClInclude Include="MoveComponent.h" />
     <ClInclude Include="MoveForwardComponent.h" />
     <ClInclude Include="PositionalLightComponent.h" />
+    <ClInclude Include="RemoveComponent.h" />
     <ClInclude Include="RigidBodyComponent.h" />
     <ClInclude Include="Scene0.h" />
     <ClInclude Include="Scene1.h" />

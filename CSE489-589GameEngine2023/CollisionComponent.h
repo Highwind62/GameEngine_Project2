@@ -10,13 +10,13 @@ public:
 
 	virtual void collisionEnter(const class RigidBodyComponent* collisionData)
 	{
-		//if (collisionData->owningGameObject->gameObjectName == "projectile") {
+		if (collisionData->owningGameObject->gameObjectName == "projectile") {
 
 		//	if (VERBOSE) cout << "HIT BY PROJECTILE - " << owningGameObject->gameObjectName << endl;
 
-			//owningGameObject->removeAndDelete();
-			//collisionData->owningGameObject->removeAndDelete();
-		//}
+			owningGameObject->removeAndDelete();
+			collisionData->owningGameObject->removeAndDelete();
+		}
 	
 		if(VERBOSE) cout << "Collision Component collision enter " << owningGameObject->gameObjectName << endl;
 

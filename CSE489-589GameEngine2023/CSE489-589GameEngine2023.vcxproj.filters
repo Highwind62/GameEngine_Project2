@@ -117,6 +117,12 @@
     <ClCompile Include="PhysicsEngine.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="RemoveComponent.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelMakerComponent.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Scene3.h">
@@ -237,6 +243,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="RigidBodyComponent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RemoveComponent.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

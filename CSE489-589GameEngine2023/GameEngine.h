@@ -20,7 +20,7 @@
 //#include "SkyBoxComponent.h"
 
 // GameObject Management
-//#include "ModelMakerComponent.h"
+#include "ModelMakerComponent.h"
 
 // Lights
 #include "DirectionalLightComponent.h"
@@ -40,7 +40,7 @@
 #include "MoveForwardComponent.h"
 //#include "WaypointComponent.h"
 //#include "SteeringComponent.h"
-//#include "RemoveComponent.h"
+#include "RemoveComponent.h"
 #include "CollisionComponent.h"
 //#include "SpinComponent.h"
 
